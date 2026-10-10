@@ -1,0 +1,41 @@
+# Rust build output (Cargo.lock should be tracked for applications)
+/target/
+**/target/
+
+# Frontend dependencies and output
+**/node_modules/
+**/dist/
+**/.vite/
+**/coverage/
+*.tsbuildinfo
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.local
+/.idea/
+/.vscode/
+
+# Generated firmware and compiler output
+**/build/
+*.hex
+*.ihx
+*.rel
+*.lst
+*.map
+*.mem
+*.rst
+*.lk
+
+# Temporary artifacts
+/artifacts/
+/scratch/
+/.cache/
+*.log
+*.tmp
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
